@@ -1,0 +1,360 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,3,SPAN,0,BUTTON",
+            "selector": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 122,
+              "left": 1190,
+              "right": 1230,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-EM",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,EM",
+            "selector": "div.field-item > div.alert > h3 > em",
+            "boundingRect": {
+              "top": 312,
+              "bottom": 352,
+              "left": 121,
+              "right": 894,
+              "width": 773,
+              "height": 40
+            },
+            "snippet": "<em>",
+            "nodeLabel": "Goal: Develop a comprehensive and rigorous education for every student with hig…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #2d8700, background color: #d9edf7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-139-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.field > div.field-items > div.field-item > div.alert",
+                  "boundingRect": {
+                    "top": 277,
+                    "bottom": 379,
+                    "left": 105,
+                    "right": 942,
+                    "width": 837,
+                    "height": 102
+                  },
+                  "snippet": "<div class=\"alert alert-info\">",
+                  "nodeLabel": "Goal: Develop a comprehensive and rigorous education for every student with hig…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-EM",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,DIV,0,H3,0,EM",
+            "selector": "div.field-item > div.alert > h3 > em",
+            "boundingRect": {
+              "top": 1845,
+              "bottom": 1885,
+              "left": 121,
+              "right": 875,
+              "width": 754,
+              "height": 40
+            },
+            "snippet": "<em>",
+            "nodeLabel": "Goal: Accelerate learning for every student: Attain student achievement levels …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #2d8700, background color: #d9edf7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-141-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,21,DIV",
+                  "selector": "div.field > div.field-items > div.field-item > div.alert",
+                  "boundingRect": {
+                    "top": 1810,
+                    "bottom": 1911,
+                    "left": 105,
+                    "right": 942,
+                    "width": 837,
+                    "height": 102
+                  },
+                  "snippet": "<div class=\"alert alert-info\">",
+                  "nodeLabel": "Goal: Accelerate learning for every student: Attain student achievement levels …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-H3",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.field-items > div.field-item > div.alert > h3",
+            "boundingRect": {
+              "top": 313,
+              "bottom": 353,
+              "left": 121,
+              "right": 926,
+              "width": 805,
+              "height": 40
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Goal: Develop a comprehensive and rigorous education for every student with hig…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 2454,
+              "bottom": 2914,
+              "left": 105,
+              "right": 942,
+              "width": 837,
+              "height": 460
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Department will leverage Comprehensive Centers, the Regional Educational La…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-144-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,UL,1,UL",
+                  "selector": "div.field-items > div.field-item > ul > ul",
+                  "boundingRect": {
+                    "top": 2514,
+                    "bottom": 2914,
+                    "left": 127,
+                    "right": 942,
+                    "width": 814,
+                    "height": 400
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "The Department of Education's Comprehensive Centers:\nThis collection of best pr…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,UL,1,UL",
+            "selector": "div.field-items > div.field-item > ul > ul",
+            "boundingRect": {
+              "top": 2514,
+              "bottom": 2914,
+              "left": 127,
+              "right": 942,
+              "width": 814,
+              "height": 400
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Department of Education's Comprehensive Centers:\nThis collection of best pr…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-145-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,UL,1,UL,1,UL",
+                  "selector": "div.field-item > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 2534,
+                    "bottom": 2674,
+                    "left": 150,
+                    "right": 942,
+                    "width": 792,
+                    "height": 140
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "This collection of best practices about implementing effective tutoring program…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-146-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,UL,1,UL,3,UL",
+                  "selector": "div.field-item > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 2694,
+                    "bottom": 2914,
+                    "left": 150,
+                    "right": 942,
+                    "width": 792,
+                    "height": 220
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "The Leveraging Evidence to Accelerate Recovery Nationwide Network (LEARN Networ…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
