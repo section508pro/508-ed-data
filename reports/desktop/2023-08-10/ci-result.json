@@ -1,8 +1,8 @@
 [
   {
     "path": "/",
-    "score": 0.87,
-    "performance": 0.94,
+    "score": 0.88,
+    "performance": 0.98,
     "accessibility": 0.88,
     "best-practices": 0.83,
     "seo": 0.82
@@ -10,15 +10,15 @@
   {
     "path": "/1098-e",
     "score": 0.87,
-    "performance": 0.98,
+    "performance": 0.97,
     "accessibility": 0.86,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/answers/",
-    "score": 0.87,
-    "performance": 0.95,
+    "score": 0.86,
+    "performance": 0.93,
     "accessibility": 0.86,
     "best-practices": 0.83,
     "seo": 0.82
@@ -33,16 +33,16 @@
   },
   {
     "path": "/category/audience/student-financial-aid-officers",
-    "score": 0.88,
-    "performance": 0.97,
+    "score": 0.87,
+    "performance": 0.93,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/category/audience/students",
-    "score": 0.88,
-    "performance": 0.97,
+    "score": 0.89,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -81,8 +81,8 @@
   },
   {
     "path": "/category/keyword/loan-forgiveness",
-    "score": 0.48,
-    "performance": 0.99,
+    "score": 0.47,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": null,
     "seo": null
@@ -90,15 +90,15 @@
   {
     "path": "/category/keyword/national-blue-ribbon-schools",
     "score": 0.89,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/category/keyword/new-chief-staff-us-department-education",
-    "score": 0.89,
-    "performance": 0.98,
+    "score": 0.88,
+    "performance": 0.97,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -106,7 +106,7 @@
   {
     "path": "/category/keyword/raise-bar",
     "score": 0.89,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -114,7 +114,7 @@
   {
     "path": "/category/organization/office-civil-rights-ocr",
     "score": 0.89,
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -129,16 +129,16 @@
   },
   {
     "path": "/category/subject/accountability",
-    "score": 0.89,
-    "performance": 0.98,
+    "score": 0.88,
+    "performance": 0.97,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/category/subject/educational-improvement",
-    "score": 0.89,
-    "performance": 0.99,
+    "score": 0.88,
+    "performance": 0.95,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -153,11 +153,11 @@
   },
   {
     "path": "/category/subject/regulation",
-    "score": 0.89,
-    "performance": 0.98,
+    "score": 0.48,
+    "performance": 0.99,
     "accessibility": 0.91,
-    "best-practices": 0.83,
-    "seo": 0.82
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/category/subject/safety",
@@ -170,7 +170,7 @@
   {
     "path": "/category/subject/student-financial-aid",
     "score": 0.89,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -185,8 +185,8 @@
   },
   {
     "path": "/coronavirus",
-    "score": 0.88,
-    "performance": 0.96,
+    "score": 0.89,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
@@ -194,15 +194,15 @@
   {
     "path": "/coronavirus/arpstars-communications-toolkit",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.88,
     "best-practices": 0.83,
     "seo": 0.73
   },
   {
     "path": "/coronavirus/cares-act-emergency-relief",
-    "score": 0.87,
-    "performance": 0.93,
+    "score": 0.88,
+    "performance": 0.97,
     "accessibility": 0.88,
     "best-practices": 0.83,
     "seo": 0.82
@@ -210,7 +210,7 @@
   {
     "path": "/coronavirus/program-information",
     "score": 0.87,
-    "performance": 0.97,
+    "performance": 0.96,
     "accessibility": 0.86,
     "best-practices": 0.83,
     "seo": 0.82
@@ -234,31 +234,31 @@
   {
     "path": "/coronavirus/testing-resources",
     "score": 0.88,
-    "performance": 0.98,
+    "performance": 0.97,
     "accessibility": 0.88,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/coronavirus/waivers-and-flexibility",
-    "score": 0.88,
-    "performance": 0.99,
+    "score": 0.87,
+    "performance": 0.98,
     "accessibility": 0.86,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/ebola-response",
-    "score": 0.47,
-    "performance": 0.98,
+    "score": 0.88,
+    "performance": 0.97,
     "accessibility": 0.89,
-    "best-practices": null,
-    "seo": null
+    "best-practices": 0.83,
+    "seo": 0.82
   },
   {
     "path": "/fsatips",
-    "score": 0.87,
-    "performance": 0.96,
+    "score": 0.86,
+    "performance": 0.93,
     "accessibility": 0.86,
     "best-practices": 0.83,
     "seo": 0.82
@@ -273,8 +273,8 @@
   },
   {
     "path": "/news/",
-    "score": 0.87,
-    "performance": 0.97,
+    "score": 0.86,
+    "performance": 0.94,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.75
@@ -282,7 +282,7 @@
   {
     "path": "/news/events/calendars/secschedule.html",
     "score": 0.88,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.89,
     "best-practices": 0.83,
     "seo": 0.82
@@ -298,7 +298,7 @@
   {
     "path": "/news/media-advisories/first-lady-jill-biden-and-us-secretary-education-miguel-cardona-travel-georgia-workforce-hub-tour",
     "score": 0.85,
-    "performance": 0.98,
+    "performance": 0.96,
     "accessibility": 0.77,
     "best-practices": 0.83,
     "seo": 0.82
@@ -306,7 +306,7 @@
   {
     "path": "/news/media-advisories/monthly/202209",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -314,7 +314,7 @@
   {
     "path": "/news/media-advisories/monthly/202210",
     "score": 0.86,
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -322,7 +322,7 @@
   {
     "path": "/news/media-advisories/monthly/202211",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -337,16 +337,16 @@
   },
   {
     "path": "/news/media-advisories/monthly/202301",
-    "score": 0.44,
+    "score": 0.86,
     "performance": 0.98,
     "accessibility": 0.79,
-    "best-practices": null,
-    "seo": null
+    "best-practices": 0.83,
+    "seo": 0.82
   },
   {
     "path": "/news/media-advisories/monthly/202302",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -362,7 +362,7 @@
   {
     "path": "/news/media-advisories/monthly/202304",
     "score": 0.86,
-    "performance": 0.98,
+    "performance": 0.99,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -370,7 +370,7 @@
   {
     "path": "/news/media-advisories/secretary-cardona-continues-invest-america-tour-travel-troy-new-york-us-rep-paul-tonko-discuss-career-and-technical-education",
     "score": 0.85,
-    "performance": 0.97,
+    "performance": 0.96,
     "accessibility": 0.77,
     "best-practices": 0.83,
     "seo": 0.82
@@ -385,19 +385,19 @@
   },
   {
     "path": "/news/media-advisories/secretary-cardona-join-vice-president-kamala-harris-travel-springfield-virginia",
-    "score": 0.83,
-    "performance": 0.98,
+    "score": 0.43,
+    "performance": 0.97,
     "accessibility": 0.76,
-    "best-practices": 0.83,
-    "seo": 0.73
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/news/media-advisories/secretary-cardona-speak-parents-educateus-national-parents-day-cook-out-chicago-illinois",
-    "score": 0.85,
-    "performance": 0.98,
+    "score": 0.44,
+    "performance": 0.97,
     "accessibility": 0.77,
-    "best-practices": 0.83,
-    "seo": 0.82
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/news/media-advisories/secretary-cardona-visit-wesleyan-university-highlight-biden-harris-administrations-efforts-advance-diversity-and-opportunity-higher-education",
@@ -410,7 +410,7 @@
   {
     "path": "/news/media-advisories/us-department-education-green-ribbon-schools-districts-and-postsecondary-institutions-be-recognized",
     "score": 0.83,
-    "performance": 0.98,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.73
@@ -418,15 +418,15 @@
   {
     "path": "/news/media-advisories/us-deputy-secretary-education-visit-nashville-tennessee-during-“raise-bar-lead-world”-tour",
     "score": 0.85,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.77,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/news/press-releases",
-    "score": 0.86,
-    "performance": 0.99,
+    "score": 0.85,
+    "performance": 0.94,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -449,8 +449,8 @@
   },
   {
     "path": "/news/press-releases/biden-harris-administration-opens-nearly-100m-grant-opportunities-hbcus-tccus-and-msis-and-underserved-students",
-    "score": 0.84,
-    "performance": 0.99,
+    "score": 0.83,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.73
@@ -458,15 +458,15 @@
   {
     "path": "/news/press-releases/department-awards-nearly-1-billion-56-states-and-territories-provide-students-safer-and-healthier-learning-environments",
     "score": 0.83,
-    "performance": 0.97,
+    "performance": 0.98,
     "accessibility": 0.77,
     "best-practices": 0.83,
     "seo": 0.73
   },
   {
     "path": "/news/press-releases/department-of-education-announces-k-12-cybersecurity-resilience-efforts",
-    "score": 0.86,
-    "performance": 0.98,
+    "score": 0.85,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -482,7 +482,7 @@
   {
     "path": "/news/press-releases/monthly/202209",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -490,26 +490,26 @@
   {
     "path": "/news/press-releases/monthly/202210",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/news/press-releases/monthly/202211",
-    "score": 0.86,
-    "performance": 0.98,
+    "score": 0.85,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/news/press-releases/monthly/202212",
-    "score": 0.44,
-    "performance": 0.98,
+    "score": 0.85,
+    "performance": 0.97,
     "accessibility": 0.79,
-    "best-practices": null,
-    "seo": null
+    "best-practices": 0.83,
+    "seo": 0.82
   },
   {
     "path": "/news/press-releases/monthly/202301",
@@ -529,19 +529,19 @@
   },
   {
     "path": "/news/press-releases/monthly/202303",
-    "score": 0.85,
-    "performance": 0.96,
+    "score": 0.86,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/news/press-releases/monthly/202304",
-    "score": 0.85,
-    "performance": 0.95,
+    "score": 0.44,
+    "performance": 0.98,
     "accessibility": 0.79,
-    "best-practices": 0.83,
-    "seo": 0.82
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/news/press-releases/secretary-cardona-congratulates-2023-presidents-education-awards-program-recipients",
@@ -553,14 +553,6 @@
   },
   {
     "path": "/news/press-releases/secretary-cardona-statement-new-chief-staff-us-department-education",
-    "score": 0.86,
-    "performance": 0.98,
-    "accessibility": 0.79,
-    "best-practices": 0.83,
-    "seo": 0.82
-  },
-  {
-    "path": "/news/speeches",
     "score": 0.85,
     "performance": 0.97,
     "accessibility": 0.79,
@@ -568,9 +560,17 @@
     "seo": 0.82
   },
   {
+    "path": "/news/speeches",
+    "score": 0.85,
+    "performance": 0.96,
+    "accessibility": 0.79,
+    "best-practices": 0.83,
+    "seo": 0.82
+  },
+  {
     "path": "/news/speeches/monthly/202208",
-    "score": 0.86,
-    "performance": 0.98,
+    "score": 0.84,
+    "performance": 0.93,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -578,7 +578,7 @@
   {
     "path": "/news/speeches/monthly/202209",
     "score": 0.85,
-    "performance": 0.96,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -601,8 +601,8 @@
   },
   {
     "path": "/news/speeches/monthly/202301",
-    "score": 0.86,
-    "performance": 0.99,
+    "score": 0.85,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -610,7 +610,7 @@
   {
     "path": "/news/speeches/monthly/202302",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -618,7 +618,7 @@
   {
     "path": "/news/speeches/monthly/202303",
     "score": 0.86,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -634,7 +634,7 @@
   {
     "path": "/news/speeches/opening-remarks-us-secretary-education-miguel-cardona-2023-international-summit-teaching-profession",
     "score": 0.85,
-    "performance": 0.95,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -649,19 +649,19 @@
   },
   {
     "path": "/news/speeches/secretary-cardona-defends-public-education-speech-american-federation-teachers",
-    "score": 0.86,
-    "performance": 0.98,
+    "score": 0.84,
+    "performance": 0.9,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/news/speeches/secretary-cardona-delivers-commencement-address-university-central-florida-class-2023",
-    "score": 0.86,
-    "performance": 0.98,
+    "score": 0.45,
+    "performance": 0.99,
     "accessibility": 0.79,
-    "best-practices": 0.83,
-    "seo": 0.82
+    "best-practices": null,
+    "seo": null
   },
   {
     "path": "/news/speeches/secretary-cardona-delivers-keynote-reimagining-college-admissions-summit-equal-opportunity-higher-education",
@@ -673,24 +673,24 @@
   },
   {
     "path": "/news/speeches/secretary-cardona-delivers-remarks-importance-mustering-will-education-teachers-college-columbia-university",
-    "score": 0.86,
-    "performance": 0.99,
+    "score": 0.85,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/news/speeches/secretary-cardona-delivers-remarks-national-education-association",
-    "score": 0.44,
-    "performance": 0.97,
+    "score": 0.86,
+    "performance": 0.98,
     "accessibility": 0.79,
-    "best-practices": null,
-    "seo": null
+    "best-practices": 0.83,
+    "seo": 0.82
   },
   {
     "path": "/news/speeches/secretary-cardona-touts-pathways-students-well-paying-careers-smart-union-leadership-conference",
-    "score": 0.86,
-    "performance": 0.98,
+    "score": 0.85,
+    "performance": 0.97,
     "accessibility": 0.79,
     "best-practices": 0.83,
     "seo": 0.82
@@ -698,31 +698,31 @@
   {
     "path": "/raisethebar/",
     "score": 0.88,
-    "performance": 0.97,
+    "performance": 0.99,
     "accessibility": 0.88,
     "best-practices": 0.83,
     "seo": 0.82
   },
   {
     "path": "/raisethebar/academic-excellence",
-    "score": 0.44,
-    "performance": 0.94,
+    "score": 0.84,
+    "performance": 0.95,
     "accessibility": 0.83,
+    "best-practices": 0.83,
+    "seo": 0.73
+  },
+  {
+    "path": "/raisethebar/college-excellence-equity",
+    "score": 0.48,
+    "performance": 0.99,
+    "accessibility": 0.91,
     "best-practices": null,
     "seo": null
   },
   {
-    "path": "/raisethebar/college-excellence-equity",
-    "score": 0.89,
-    "performance": 0.98,
-    "accessibility": 0.91,
-    "best-practices": 0.83,
-    "seo": 0.82
-  },
-  {
     "path": "/raisethebar/improve-learning-conditions",
-    "score": 0.86,
-    "performance": 0.97,
+    "score": 0.87,
+    "performance": 0.98,
     "accessibility": 0.83,
     "best-practices": 0.83,
     "seo": 0.82
@@ -738,7 +738,7 @@
   {
     "path": "/respuestas/",
     "score": 0.85,
-    "performance": 0.97,
+    "performance": 0.96,
     "accessibility": 0.86,
     "best-practices": 0.83,
     "seo": 0.73
@@ -746,7 +746,7 @@
   {
     "path": "/taxonomy/term/all",
     "score": 0.89,
-    "performance": 0.99,
+    "performance": 0.98,
     "accessibility": 0.91,
     "best-practices": 0.83,
     "seo": 0.82
