@@ -1,0 +1,226 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,3,SPAN,0,BUTTON",
+            "selector": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 105,
+              "bottom": 139,
+              "left": 342,
+              "right": 382,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,FORM,1,DIV,5,SPAN,0,BUTTON",
+            "selector": "form#search_form > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 1973,
+              "bottom": 2007,
+              "left": 357,
+              "right": 397,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#search_form > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,3,SPAN,0,BUTTON",
+            "selector": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 105,
+              "bottom": 139,
+              "left": 342,
+              "right": 382,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: searchsubmit"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-137-BUTTON",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,FORM,1,DIV,5,SPAN,0,BUTTON",
+                  "selector": "form#search_form > div.input-group > span.input-group-btn > button#searchsubmit",
+                  "boundingRect": {
+                    "top": 1973,
+                    "bottom": 2007,
+                    "left": 357,
+                    "right": 397,
+                    "width": 40,
+                    "height": 34
+                  },
+                  "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+                  "nodeLabel": "form#search_form > div.input-group > span.input-group-btn > button#searchsubmit"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,2,INPUT",
+            "selector": "div.col-sm-5 > form#cse-search-box > div.input-group > input#query",
+            "boundingRect": {
+              "top": 105,
+              "bottom": 139,
+              "left": 30,
+              "right": 343,
+              "width": 313,
+              "height": 34
+            },
+            "snippet": "<input type=\"search\" placeholder=\"Search...\" id=\"query\" value=\"\" name=\"query\" autocomplete=\"off\" class=\"form-control usagov-search-autocomplete\" style=\"width:100%\">",
+            "nodeLabel": "div.col-sm-5 > form#cse-search-box > div.input-group > input#query",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: query"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-136-INPUT",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,1,DIV,0,DIV,4,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,FORM,1,DIV,4,INPUT",
+                  "selector": "div > form#search_form > div.input-group > input#query",
+                  "boundingRect": {
+                    "top": 1973,
+                    "bottom": 2007,
+                    "left": 25,
+                    "right": 358,
+                    "width": 333,
+                    "height": 34
+                  },
+                  "snippet": "<input type=\"search\" placeholder=\"Search...\" id=\"query\" value=\"\" name=\"query\" autocomplete=\"off\" class=\"form-control usagov-search-autocomplete\" style=\"width:100%\">",
+                  "nodeLabel": "div > form#search_form > div.input-group > input#query"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
