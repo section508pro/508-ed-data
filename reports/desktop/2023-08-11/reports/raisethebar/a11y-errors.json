@@ -1,0 +1,216 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,3,SPAN,0,BUTTON",
+            "selector": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 88,
+              "bottom": 122,
+              "left": 1190,
+              "right": 1230,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-132-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 1144,
+              "bottom": 1244,
+              "left": 105,
+              "right": 942,
+              "width": 837,
+              "height": 100
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Goal: Develop a comprehensive and rigorous education for every student with hig…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-133-BR",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,10,UL,1,BR",
+                  "selector": "div.field-items > div.field-item > ul > br",
+                  "boundingRect": {
+                    "top": 1186,
+                    "bottom": 1202,
+                    "left": 127,
+                    "right": 127,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.field-items > div.field-item > ul > br"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 1384,
+              "bottom": 1484,
+              "left": 105,
+              "right": 942,
+              "width": 837,
+              "height": 100
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Goal: Eliminate the educator shortage for every school by ensuring that schools…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-135-BR",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,UL,1,BR",
+                  "selector": "div.field-items > div.field-item > ul > br",
+                  "boundingRect": {
+                    "top": 1426,
+                    "bottom": 1442,
+                    "left": 127,
+                    "right": 127,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.field-items > div.field-item > ul > br"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,16,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 1624,
+              "bottom": 1724,
+              "left": 105,
+              "right": 942,
+              "width": 837,
+              "height": 100
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Goal: Ensure every student has a path to postsecondary education and training, …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-137-BR",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,16,UL,1,BR",
+                  "selector": "div.field-items > div.field-item > ul > br",
+                  "boundingRect": {
+                    "top": 1686,
+                    "bottom": 1702,
+                    "left": 127,
+                    "right": 127,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div.field-items > div.field-item > ul > br"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
