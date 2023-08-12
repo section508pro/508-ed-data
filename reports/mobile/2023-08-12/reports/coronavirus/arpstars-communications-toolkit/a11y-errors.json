@@ -1,0 +1,168 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-127-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,3,SPAN,0,BUTTON",
+            "selector": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 105,
+              "bottom": 139,
+              "left": 342,
+              "right": 382,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-OL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,OL",
+            "selector": "div.field > div.field-items > div.field-item > ol",
+            "boundingRect": {
+              "top": 1949,
+              "bottom": 2449,
+              "left": 15,
+              "right": 387,
+              "width": 372,
+              "height": 500
+            },
+            "snippet": "<ol start=\"1\" type=\"1\">",
+            "nodeLabel": "A clip around 20 seconds long with someone speaking to camera with the followin…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-130-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,OL,1,UL",
+                  "selector": "div.field-items > div.field-item > ol > ul",
+                  "boundingRect": {
+                    "top": 1989,
+                    "bottom": 2069,
+                    "left": 55,
+                    "right": 387,
+                    "width": 332,
+                    "height": 80
+                  },
+                  "snippet": "<ul type=\"disc\">",
+                  "nodeLabel": "Naming themselves, the school and the city and state\nWhat ARP funds were used o…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-131-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,OL,3,UL",
+                  "selector": "div.field-items > div.field-item > ol > ul",
+                  "boundingRect": {
+                    "top": 2109,
+                    "bottom": 2149,
+                    "left": 55,
+                    "right": 387,
+                    "width": 332,
+                    "height": 40
+                  },
+                  "snippet": "<ul type=\"disc\">",
+                  "nodeLabel": "Just outside of school, preferably with a sign or something that says the name …"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-132-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,13,OL,5,UL",
+                  "selector": "div.field-items > div.field-item > ol > ul",
+                  "boundingRect": {
+                    "top": 2189,
+                    "bottom": 2269,
+                    "left": 55,
+                    "right": 387,
+                    "width": 332,
+                    "height": 80
+                  },
+                  "snippet": "<ul type=\"disc\">",
+                  "nodeLabel": "For example, if funds were spent on filters, then perhaps showing us the room t…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
