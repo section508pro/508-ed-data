@@ -1,0 +1,426 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-BUTTON",
+            "path": "1,HTML,1,BODY,1,DIV,0,HEADER,1,DIV,0,DIV,0,FORM,1,DIV,3,SPAN,0,BUTTON",
+            "selector": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "boundingRect": {
+              "top": 105,
+              "bottom": 139,
+              "left": 342,
+              "right": 382,
+              "width": 40,
+              "height": 34
+            },
+            "snippet": "<button value=\"Search\" id=\"searchsubmit\" type=\"submit\" class=\"btn btn-primary\" style=\"height:34px;\">",
+            "nodeLabel": "form#cse-search-box > div.input-group > span.input-group-btn > button#searchsubmit",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-159-EM",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3,0,EM",
+            "selector": "div.field-item > div.alert > h3 > em",
+            "boundingRect": {
+              "top": 361,
+              "bottom": 460,
+              "left": 31,
+              "right": 370,
+              "width": 339,
+              "height": 99
+            },
+            "snippet": "<em>",
+            "nodeLabel": "Goal: Eliminate the educator shortage for every school by ensuring that schools…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #2d8700, background color: #d9edf7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-160-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.field > div.field-items > div.field-item > div.alert",
+                  "boundingRect": {
+                    "top": 326,
+                    "bottom": 487,
+                    "left": 15,
+                    "right": 387,
+                    "width": 372,
+                    "height": 161
+                  },
+                  "snippet": "<div class=\"alert alert-info\">",
+                  "nodeLabel": "Goal: Eliminate the educator shortage for every school by ensuring that schools…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-161-EM",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,DIV,0,H3,0,EM",
+            "selector": "div.field-item > div.alert > h3 > em",
+            "boundingRect": {
+              "top": 6290,
+              "bottom": 6389,
+              "left": 31,
+              "right": 353,
+              "width": 322,
+              "height": 99
+            },
+            "snippet": "<em>",
+            "nodeLabel": "Goal: Invest in every student's mental health and well-being by increasing scho…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.8 (foreground color: #2d8700, background color: #d9edf7, font size: 13.5pt (18px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-162-DIV",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,29,DIV",
+                  "selector": "div.field > div.field-items > div.field-item > div.alert",
+                  "boundingRect": {
+                    "top": 6255,
+                    "bottom": 6416,
+                    "left": 15,
+                    "right": 387,
+                    "width": 372,
+                    "height": 161
+                  },
+                  "snippet": "<div class=\"alert alert-info\">",
+                  "nodeLabel": "Goal: Invest in every student's mental health and well-being by increasing scho…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-163-H3",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,H3",
+            "selector": "div.field-items > div.field-item > div.alert > h3",
+            "boundingRect": {
+              "top": 362,
+              "bottom": 461,
+              "left": 31,
+              "right": 371,
+              "width": 340,
+              "height": 99
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Goal: Eliminate the educator shortage for every school by ensuring that schools…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-164-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 2077,
+              "bottom": 2477,
+              "left": 15,
+              "right": 387,
+              "width": 372,
+              "height": 400
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Department will continue to make clear how program funds can be used and in…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-165-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,12,UL,1,UL",
+                  "selector": "div.field-items > div.field-item > ul > ul",
+                  "boundingRect": {
+                    "top": 2157,
+                    "bottom": 2477,
+                    "left": 37,
+                    "right": 387,
+                    "width": 350,
+                    "height": 320
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "To succeed in the classroom, new teachers need not only high-quality educator p…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 2546,
+              "bottom": 3406,
+              "left": 15,
+              "right": 387,
+              "width": 372,
+              "height": 860
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Department is leveraging key grant programs to support high-quality and aff…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-167-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,14,UL,2,UL",
+                  "selector": "div.field-items > div.field-item > ul > ul",
+                  "boundingRect": {
+                    "top": 2766,
+                    "bottom": 3086,
+                    "left": 37,
+                    "right": 387,
+                    "width": 350,
+                    "height": 320
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "Registered apprenticeship programs focus on combining classroom experience with…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-168-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,18,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 3786,
+              "bottom": 4146,
+              "left": 15,
+              "right": 387,
+              "width": 372,
+              "height": 360
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "The Department is partnering with outside organizations to address educator sho…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-169-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,18,UL,1,UL",
+                  "selector": "div.field-items > div.field-item > ul > ul",
+                  "boundingRect": {
+                    "top": 3966,
+                    "bottom": 4146,
+                    "left": 37,
+                    "right": 387,
+                    "width": 350,
+                    "height": 180
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "ZipRecruiter launched a new online job portal specifically dedicated to K-12 sc…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-170-UL",
+            "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,39,UL",
+            "selector": "div.field > div.field-items > div.field-item > ul",
+            "boundingRect": {
+              "top": 7568,
+              "bottom": 8368,
+              "left": 15,
+              "right": 387,
+              "width": 372,
+              "height": 800
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Through the American Rescue Plan's (ARP) Elementary and Secondary School Emerge…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-171-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,2,DIV,0,DIV,0,SECTION,0,DIV,2,DIV,0,SECTION,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,DIV,0,DIV,0,DIV,0,DIV,39,UL,1,UL",
+                  "selector": "div.field-items > div.field-item > ul > ul",
+                  "boundingRect": {
+                    "top": 7708,
+                    "bottom": 8368,
+                    "left": 37,
+                    "right": 387,
+                    "width": 350,
+                    "height": 660
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "The District of Columbia has committed $1 million in ESSER II funds to Educator…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
